@@ -53,7 +53,7 @@ namespace WriteEx
         public void Damage(int att)
         {            
             hp -= att;
-            Console.WriteLine("공격성공!");
+            Console.WriteLine($"공격성공! {att}의 데미지!");
             Console.WriteLine($"적의 체력 : {hp}/{maxhp}");
             currenthp = hp;
 
@@ -64,6 +64,14 @@ namespace WriteEx
             }
         
         }
+        public void PrintStatus()
+        {
+            Console.WriteLine("---------------------------------------------");
+            Console.WriteLine($"몬스터 레벨 : {lv}");
+            Console.WriteLine($"몬스터 체력 : {currenthp}/{maxhp}");
+            Console.WriteLine("---------------------------------------------");
+        }
+        
         public int GetCurrenthp()
         {
             return currenthp;
@@ -243,13 +251,14 @@ namespace WriteEx
                 while (monster.GetCurrenthp() != 0)
                 {
                     Console.Clear();
-                    player.PrintStatus();
+                    monster.PrintStatus();
                     Console.WriteLine("---------------------------------------------");
                     Console.WriteLine("적과의 전투가 시작되었습니다.");
                     Console.WriteLine("1. 공격");
                     Console.WriteLine("2. 방어");
                     Console.WriteLine("3. 도망친다");
                     Console.WriteLine("---------------------------------------------");
+                    player.PrintStatus();
 
                     ConsoleKeyInfo keyInfo = Console.ReadKey();
                     switch (keyInfo.Key)
