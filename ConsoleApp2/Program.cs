@@ -5,78 +5,77 @@ using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WriteEx
+namespace WriteEx //누가 만들었는지 명시
 {
    enum Place
     {
         start,
         town,
         river,
-        plain
+        plain,
+        fight
     }
 
-    class Player
+    class UnitParents
     {
-        int lv = 3;
-        int hp = 30;
-        int att = 3;
+        protected string name = "";
+        protected int lv = 3;
+        protected int hp = 30;
+        protected int maxhp = 30;
+        protected int att = 3;
+        protected int currnethp = 30;
+        
+        public void Damage()
+        {
+            hp -= att;
+            Console.WriteLine($"공격성공! {att}의 데미지!");
+            Console.WriteLine($"{name}의 체력 : {hp}/{maxhp}");    
+        }
+        public int GetAtt()
+        {
+            return att;
+        }
+        public void GetCurrenthp()
+        {
+            hp = currnethp;
+        }
+        public int Currenthp()
+        {
+            return hp;
+        }
 
-        int maxhp = 30;
+        public void SetName(string newname)
+        {
+           name = newname;
+        }
 
+        public string GetName()
+        {
+            return name;
+        }
+    }
+
+    class Player : UnitParents
+    {
+       
         public void PrintStatus()
         {
             Console.WriteLine("---------------------------------------------");
-            // Console.WriteLine("플레이어 레벨 : " + lv);
-            // Console.WriteLine("플레이어 체력 : " + hp + "/" + maxhp);
-            // Console.WriteLine("플레이어 공격력 : "+ att);
             Console.WriteLine($"플레이어 레벨 : {lv}");
             Console.WriteLine($"플레이어 체력 : {hp}/{maxhp}");
             Console.WriteLine($"플레이어 공격력 : {att}");
             Console.WriteLine("---------------------------------------------");
         }
 
-        public int GetAtt()
-        {
-            return att;
-        }
-
-
+        
     }
 
-    class Monster
+    class Monster : UnitParents
     {
-        Place place;
-        int lv = 3;
-        int hp = 30;
-        int maxhp = 30;
-        int currenthp = 30;
-        public void Damage(int att)
-        {            
-            hp -= att;
-            Console.WriteLine($"공격성공! {att}의 데미지!");
-            Console.WriteLine($"적의 체력 : {hp}/{maxhp}");
-            currenthp = hp;
+     
 
-            if (currenthp == 0)
-            {
-                Console.WriteLine($"적의 체력 : {currenthp}");
-                Console.WriteLine("적이 사망했습니다.");
-            }
-        
-        }
-        public void PrintStatus()
-        {
-            Console.WriteLine("---------------------------------------------");
-            Console.WriteLine($"몬스터 레벨 : {lv}");
-            Console.WriteLine($"몬스터 체력 : {currenthp}/{maxhp}");
-            Console.WriteLine("---------------------------------------------");
-        }
-        
-        public int GetCurrenthp()
-        {
-            return currenthp;
-        }
     }
+
 
     internal class Program
     {
@@ -206,7 +205,7 @@ namespace WriteEx
 
         static Place Plain(Player player)
         {
-          Monster monster = new Monster();
+          
             while (true)
             {
                 Console.Clear();
@@ -225,8 +224,7 @@ namespace WriteEx
                     case ConsoleKey.D1:
                         Console.WriteLine("적과 전투를 시작합니다.");
                         Console.ReadKey();
-                        Fight(player, monster);
-                        return Place.plain;
+                        return Place.fight;
 
                     case ConsoleKey.D2:
                         Console.WriteLine("아이템을 사용합니다.");
@@ -248,51 +246,56 @@ namespace WriteEx
 
         static void Fight(Player player, Monster monster)
         {
-                while (monster.GetCurrenthp() != 0)
+            Monster monster1 = monster;
+            
+            
+                Console.Clear();
+                Console.WriteLine("---------------------------------------------");
+                Console.WriteLine("적과의 전투가 시작되었습니다.");
+                Console.WriteLine("1. 공격");
+                Console.WriteLine("2. 방어");
+                Console.WriteLine("3. 도망친다");
+                Console.WriteLine("---------------------------------------------");
+                player.PrintStatus();
+
+                ConsoleKeyInfo keyInfo = Console.ReadKey();
+
+                switch (keyInfo.Key)
                 {
-                    Console.Clear();
-                    monster.PrintStatus();
-                    Console.WriteLine("---------------------------------------------");
-                    Console.WriteLine("적과의 전투가 시작되었습니다.");
-                    Console.WriteLine("1. 공격");
-                    Console.WriteLine("2. 방어");
-                    Console.WriteLine("3. 도망친다");
-                    Console.WriteLine("---------------------------------------------");
-                    player.PrintStatus();
+                    case ConsoleKey.D1:
+                        Console.WriteLine("공격합니다.");
+                        monster.Damage();
+                        Console.ReadKey();
+                        break;
 
-                    ConsoleKeyInfo keyInfo = Console.ReadKey();
-                    switch (keyInfo.Key)
-                    {
-                        case ConsoleKey.D1:
-                            Console.WriteLine("적을 공격합니다.");
-                            monster.Damage(player.GetAtt());
-                            Console.ReadKey();
-                            break;
+                    case ConsoleKey.D2:
+                        Console.WriteLine("방어합니다.");
+                        Console.ReadKey();
+                        break;
 
-                        case ConsoleKey.D2:
-                            Console.WriteLine("방어합니다.");
-                            Console.ReadKey();
-                            break;
+                    case ConsoleKey.D3:
+                        Console.WriteLine("도망칩니다.");
+                        Console.ReadKey();
+                        break;
 
-                        case ConsoleKey.D3:
-                            Console.WriteLine("도망칩니다.");
-                            Console.ReadKey();
-                            break;
-
-                        default:
-                            Console.WriteLine("잘못된 입력입니다.");
-                            Console.ReadKey();
-                            break;
-                    }
+                    default:
+                        Console.WriteLine("잘못된 입력입니다.");
+                        Console.ReadKey();
+                        break;
                 }
-           
-        }
+
+            }
+        
 
         static void Main(string[] args)
         {
             Place place = Place.start;
             Player player1 = new Player();
-
+            Monster monster1  = new Monster();
+            player1.GetAtt();
+            monster1.SetName("고블린");
+            
+            
             while (true)
             {
              
@@ -317,6 +320,10 @@ namespace WriteEx
 
                     case Place.plain:
                         place = Plain(player1);
+                        break;
+                    
+                    case Place.fight:
+                        Fight(player1,monster1);
                         break;
 
                     default:

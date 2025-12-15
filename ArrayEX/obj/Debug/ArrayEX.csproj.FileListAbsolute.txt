@@ -1,0 +1,7 @@
+C:\Users\Administrator\Source\Repos\GOOKGI\ArrayEX\bin\Debug\ArrayEX.exe.config
+C:\Users\Administrator\Source\Repos\GOOKGI\ArrayEX\bin\Debug\ArrayEX.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\ArrayEX\bin\Debug\ArrayEX.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\ArrayEX\obj\Debug\ArrayEX.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\ArrayEX\obj\Debug\ArrayEX.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\ArrayEX\obj\Debug\ArrayEX.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\ArrayEX\obj\Debug\ArrayEX.pdb

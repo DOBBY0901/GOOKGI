@@ -1,10 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\uAE40\uB3C4\uD615\\Desktop\\\uD300\uD504\uB85C\uC81D\uD2B8\\GOOKGI\\ConsoleApp2\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\ConsoleApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E25C0770-D6FD-4896-A687-44341B819C6E}|WriteEx.csproj|C:\\Users\\\uAE40\uB3C4\uD615\\Desktop\\\uD300\uD504\uB85C\uC81D\uD2B8\\GOOKGI\\ConsoleApp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E25C0770-D6FD-4896-A687-44341B819C6E}|WriteEx.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{862FF014-4FC3-4FCF-A8D1-63DED99305C1}|..\\ArrayEX\\ArrayEX.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\arrayex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +19,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\uAE40\uB3C4\uD615\\Desktop\\\uD300\uD504\uB85C\uC81D\uD2B8\\GOOKGI\\ConsoleApp2\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\\uAE40\uB3C4\uD615\\Desktop\\\uD300\uD504\uB85C\uC81D\uD2B8\\GOOKGI\\ConsoleApp2\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAA8wFsAAABPAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\ArrayEX\\Program.cs",
+              "RelativeDocumentMoniker": "..\\ArrayEX\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\ArrayEX\\Program.cs",
+              "RelativeToolTip": "..\\ArrayEX\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T00:40:34.619Z",
+              "WhenOpened": "2025-12-15T03:34:34.198Z",
               "EditorCaption": ""
             }
           ]
