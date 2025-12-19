@@ -32,7 +32,7 @@ namespace ArrayEX
             {
                 Console.WriteLine(listA[i]);
             }
-            
+                
             Console.ReadLine();
         }
 

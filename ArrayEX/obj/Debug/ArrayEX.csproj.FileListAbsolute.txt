@@ -5,3 +5,4 @@ C:\Users\Administrator\Source\Repos\GOOKGI\ArrayEX\obj\Debug\ArrayEX.csproj.Asse
 C:\Users\Administrator\Source\Repos\GOOKGI\ArrayEX\obj\Debug\ArrayEX.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Source\Repos\GOOKGI\ArrayEX\obj\Debug\ArrayEX.exe
 C:\Users\Administrator\Source\Repos\GOOKGI\ArrayEX\obj\Debug\ArrayEX.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\ArrayEX\obj\Debug\ArrayEX.exe.config

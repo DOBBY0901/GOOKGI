@@ -1,0 +1,8 @@
+C:\Users\Administrator\Source\Repos\GOOKGI\StringEX\bin\Debug\StringEX.exe.config
+C:\Users\Administrator\Source\Repos\GOOKGI\StringEX\bin\Debug\StringEX.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\StringEX\bin\Debug\StringEX.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\StringEX\obj\Debug\StringEX.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\StringEX\obj\Debug\StringEX.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\StringEX\obj\Debug\StringEX.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\StringEX\obj\Debug\StringEX.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\StringEX\obj\Debug\StringEX.exe.config

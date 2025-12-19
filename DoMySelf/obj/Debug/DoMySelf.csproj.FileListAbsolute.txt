@@ -1,0 +1,8 @@
+C:\Users\Administrator\Source\Repos\GOOKGI\DoMySelf\bin\Debug\DoMySelf.exe.config
+C:\Users\Administrator\Source\Repos\GOOKGI\DoMySelf\bin\Debug\DoMySelf.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\DoMySelf\bin\Debug\DoMySelf.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\DoMySelf\obj\Debug\DoMySelf.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\DoMySelf\obj\Debug\DoMySelf.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\DoMySelf\obj\Debug\DoMySelf.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\DoMySelf\obj\Debug\DoMySelf.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\DoMySelf\obj\Debug\DoMySelf.exe.config

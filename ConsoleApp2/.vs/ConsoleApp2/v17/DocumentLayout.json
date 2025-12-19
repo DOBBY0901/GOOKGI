@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\ConsoleApp2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{404C465E-9F15-4A74-BB2A-9B58FDF2CEBF}|..\\BaseballEX\\BaseballEX.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\baseballex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F942BC18-829B-434A-B6A9-A7FEE6C0DBF8}|..\\DoMySelf\\DoMySelf.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\domyself\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A74E5922-DB3F-4E6A-B353-C6186F276355}|..\\StringEX\\StringEX.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\stringex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{862FF014-4FC3-4FCF-A8D1-63DED99305C1}|..\\ArrayEX\\ArrayEX.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\arrayex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A050F0E8-9979-40FC-9BBB-57E88FD6F772}|..\\Program1\\Program1.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\program1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,11 +31,63 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\BaseballEX\\Program.cs",
+              "RelativeDocumentMoniker": "..\\BaseballEX\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\BaseballEX\\Program.cs",
+              "RelativeToolTip": "..\\BaseballEX\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T01:34:18.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\DoMySelf\\Program.cs",
+              "RelativeDocumentMoniker": "..\\DoMySelf\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\DoMySelf\\Program.cs",
+              "RelativeToolTip": "..\\DoMySelf\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T01:09:12.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\StringEX\\Program.cs",
+              "RelativeDocumentMoniker": "..\\StringEX\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\StringEX\\Program.cs",
+              "RelativeToolTip": "..\\StringEX\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwCkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T00:10:13.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Program1\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Program1\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Program1\\Program.cs",
+              "RelativeToolTip": "..\\Program1\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T00:00:41.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\ArrayEX\\Program.cs",
               "RelativeDocumentMoniker": "..\\ArrayEX\\Program.cs",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\ArrayEX\\Program.cs",
               "RelativeToolTip": "..\\ArrayEX\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T03:34:34.198Z",
               "EditorCaption": ""

@@ -1,0 +1,8 @@
+C:\Users\Administrator\Source\Repos\GOOKGI\BaseballEX\bin\Debug\BaseballEX.exe.config
+C:\Users\Administrator\Source\Repos\GOOKGI\BaseballEX\bin\Debug\BaseballEX.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\BaseballEX\bin\Debug\BaseballEX.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\BaseballEX\obj\Debug\BaseballEX.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\BaseballEX\obj\Debug\BaseballEX.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\BaseballEX\obj\Debug\BaseballEX.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\BaseballEX\obj\Debug\BaseballEX.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\BaseballEX\obj\Debug\BaseballEX.exe.config
