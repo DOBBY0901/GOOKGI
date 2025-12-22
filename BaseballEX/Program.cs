@@ -138,13 +138,13 @@ namespace BaseballEX
                         }
                     }
 
-                    Console.WriteLine($"{_strike}S");
-                    Console.WriteLine($"{_ball}B");
+                    Console.WriteLine($"{_strike}스트라이크");
+                    Console.WriteLine($"{_ball}볼");
                     Console.WriteLine("");
                 }
                 else
                 {
-
+                    
                 }
             }
 

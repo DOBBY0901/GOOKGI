@@ -35,7 +35,7 @@
               "RelativeDocumentMoniker": "..\\BaseballEX\\Program.cs",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\BaseballEX\\Program.cs",
               "RelativeToolTip": "..\\BaseballEX\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAIwIwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T01:34:18.427Z",
               "EditorCaption": ""
@@ -50,8 +50,7 @@
               "RelativeToolTip": "..\\DoMySelf\\Program.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAkwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T01:09:12.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-19T01:09:12.771Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "..\\StringEX\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAiwCkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T00:10:13.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-19T00:10:13.207Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "..\\Program1\\Program.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T00:00:41.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-19T00:00:41.802Z"
             },
             {
               "$type": "Document",
@@ -89,8 +86,7 @@
               "RelativeToolTip": "..\\ArrayEX\\Program.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T03:34:34.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T03:34:34.198Z"
             }
           ]
         }
