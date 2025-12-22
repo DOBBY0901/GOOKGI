@@ -1,0 +1,8 @@
+C:\Users\Administrator\Source\Repos\GOOKGI\TestEX\bin\Debug\TestEX.exe.config
+C:\Users\Administrator\Source\Repos\GOOKGI\TestEX\bin\Debug\TestEX.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\TestEX\bin\Debug\TestEX.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\TestEX\obj\Debug\TestEX.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\TestEX\obj\Debug\TestEX.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\TestEX\obj\Debug\TestEX.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\TestEX\obj\Debug\TestEX.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\TestEX\obj\Debug\TestEX.exe.config

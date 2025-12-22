@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringEX", "..\StringEX\Str
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseballEX", "..\BaseballEX\BaseballEX.csproj", "{404C465E-9F15-4A74-BB2A-9B58FDF2CEBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEX", "..\TestEX\TestEX.csproj", "{1470A1E8-839E-42F7-BBE6-4FB1C7FCB97C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{404C465E-9F15-4A74-BB2A-9B58FDF2CEBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{404C465E-9F15-4A74-BB2A-9B58FDF2CEBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{404C465E-9F15-4A74-BB2A-9B58FDF2CEBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1470A1E8-839E-42F7-BBE6-4FB1C7FCB97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1470A1E8-839E-42F7-BBE6-4FB1C7FCB97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1470A1E8-839E-42F7-BBE6-4FB1C7FCB97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1470A1E8-839E-42F7-BBE6-4FB1C7FCB97C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
