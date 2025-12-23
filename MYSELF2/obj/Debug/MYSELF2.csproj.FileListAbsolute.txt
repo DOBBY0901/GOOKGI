@@ -1,0 +1,8 @@
+C:\Users\Administrator\Source\Repos\GOOKGI\MYSELF2\bin\Debug\MYSELF2.exe.config
+C:\Users\Administrator\Source\Repos\GOOKGI\MYSELF2\bin\Debug\MYSELF2.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\MYSELF2\bin\Debug\MYSELF2.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\MYSELF2\obj\Debug\MYSELF2.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\MYSELF2\obj\Debug\MYSELF2.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\MYSELF2\obj\Debug\MYSELF2.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\MYSELF2\obj\Debug\MYSELF2.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\MYSELF2\obj\Debug\MYSELF2.exe.config

@@ -16,6 +16,13 @@ namespace WriteEx //누가 만들었는지 명시
         fight
     }
 
+    enum Position
+    {
+        Top,
+        Mid,
+        Bot
+    }
+
     class UnitParents
     {
         protected string name = "";
