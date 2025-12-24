@@ -10,7 +10,7 @@ namespace MYSELF2
        public int att;
        public bool isDead;
        public int attckCount = 0;
-        public int attackSucces = 0;
+       public int attackSucces = 0;
         public Character(string name, int hp, int maxhp, int att) 
         {
             this.name = name;
@@ -85,7 +85,7 @@ namespace MYSELF2
 
         }
        
-        static void PrintStartScene(Unit player, Orc monster)
+        static void PrintStartScene(Unit player, Orc monster) //초기화면 출력
         {
             Console.Clear();
             player.PrintStatus();
@@ -98,7 +98,7 @@ namespace MYSELF2
             Console.WriteLine("-----------------------------");
         }
      
-        static Scene StartScene()
+        static Scene StartScene() //시작씬
         {
             while (true)
             {
@@ -123,23 +123,23 @@ namespace MYSELF2
             }
         }
 
-        static Scene FightScene(Unit player, Orc monster)
+        static Scene FightScene(Unit player, Orc monster) //전투씬
         {
             while(true)
             {
                 // 플레이어 공격 턴
-                Console.Clear() ;
+                Console.Clear();
+              
                 player.PrintStatus();
                 monster.PrintStatus() ;
                 Console.WriteLine("-----------------------------");
-                Console.WriteLine("");
                 Console.WriteLine("플레이어의 턴입니다.");
                 Console.WriteLine("1.공격");
-                Console.WriteLine("2.도주");
+                Console.WriteLine("2.대기");
                 Console.WriteLine("-----------------------------");
                 player.attckCount++;
+                
                 ConsoleKeyInfo keyinfo = Console.ReadKey();
-              
                 switch (keyinfo.Key)
                 {
                         case ConsoleKey.D1:
@@ -176,11 +176,10 @@ namespace MYSELF2
                                 return Scene.end;
                             }
                         }
-
                         break;
 
                         case ConsoleKey.D2:
-                        Console.WriteLine("도주했습니다!");
+                        Console.WriteLine("대기합니다.");
                         Console.ReadKey();
                         return Scene.start;
 
@@ -193,7 +192,7 @@ namespace MYSELF2
             }
 
         }
-        static Scene PauseScene()
+        static Scene PauseScene() //대기씬
         {
             Console.Clear();
             Console.WriteLine("-----------------------------");
@@ -229,12 +228,12 @@ namespace MYSELF2
 
                     case Scene.end:
                         scene = EndScene(player, monster);
-                        return;
+                        break;
                 }
             }
         }
 
-        static Scene EndScene(Unit player,Orc monster)
+        static Scene EndScene(Unit player,Orc monster) //종료씬
         {
             Console.Clear();
             Console.WriteLine("-----------------------------");
@@ -243,12 +242,13 @@ namespace MYSELF2
             Console.WriteLine($"플레이어 공격 성공 횟수 : {player.SuccessAttackCount()}");
             Console.WriteLine($"플레이어 명중률 :{(player.SuccessAttackCount() * 100.0) / player.AttackCount():F1} %");
             Console.WriteLine("-----------------------------");
+            Console.ReadKey();
 
             return Scene.end;
 
         }
 
-        static Position ChoosePosition(string message)
+        static Position ChoosePosition(string message) //상,중,하단 선택
         {
             while (true)
             {
@@ -281,14 +281,14 @@ namespace MYSELF2
             }
         }
 
-        static Position RandomPosition()
+        static Position RandomPosition() //무작위 위치
         {
           int rand = random.Next(0,3);
             
             return (Position)rand;
         }
 
-        static void ApplyDamageToPlayer(Unit player, Orc monster, Position monsterAttckPos, Position playerDefensePos)
+        static void ApplyDamageToPlayer(Unit player, Orc monster, Position monsterAttckPos, Position playerDefensePos) //몬스터가 플레이어 공격
         {
             Console.Clear();
             Console.WriteLine("-----------------------------");
@@ -307,7 +307,7 @@ namespace MYSELF2
             }
         }
 
-        static void ApplyDamageToMonster(Unit player, Orc monster, Position playerAttckPos, Position monsterDefensePos)
+        static void ApplyDamageToMonster(Unit player, Orc monster, Position playerAttckPos, Position monsterDefensePos) //플레이어가 몬스터 공격
         {
             Console.Clear();
             Console.WriteLine("-----------------------------");

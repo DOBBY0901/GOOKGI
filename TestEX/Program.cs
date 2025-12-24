@@ -201,7 +201,7 @@ public class Program
             monster.PrintStatus();
             Console.WriteLine("플레이어 턴입니다.");
             Console.WriteLine("1. 공격");
-            Console.WriteLine("2. 도망");
+            Console.WriteLine("2. 대기");
             Console.WriteLine("------------------------------");
 
             ConsoleKeyInfo keyInfo = Console.ReadKey();
@@ -260,7 +260,7 @@ public class Program
                     }
 
                 case ConsoleKey.D2:
-                    Console.WriteLine("도망쳤습니다!");
+                    Console.WriteLine("대기합니다.");
                     Console.ReadKey();
                     return Scene.start;
 
