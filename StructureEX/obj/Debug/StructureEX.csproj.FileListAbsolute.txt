@@ -1,0 +1,8 @@
+C:\Users\Administrator\Source\Repos\GOOKGI\StructureEX\bin\Debug\StructureEX.exe.config
+C:\Users\Administrator\Source\Repos\GOOKGI\StructureEX\bin\Debug\StructureEX.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\StructureEX\bin\Debug\StructureEX.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\StructureEX\obj\Debug\StructureEX.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\StructureEX\obj\Debug\StructureEX.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\StructureEX\obj\Debug\StructureEX.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\StructureEX\obj\Debug\StructureEX.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\StructureEX\obj\Debug\StructureEX.exe.config
