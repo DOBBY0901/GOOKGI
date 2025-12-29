@@ -1,0 +1,8 @@
+C:\Users\Administrator\Source\Repos\GOOKGI\Omok\bin\Debug\Omok.exe.config
+C:\Users\Administrator\Source\Repos\GOOKGI\Omok\bin\Debug\Omok.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\Omok\bin\Debug\Omok.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\Omok\obj\Debug\Omok.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\Omok\obj\Debug\Omok.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\Omok\obj\Debug\Omok.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\Omok\obj\Debug\Omok.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\Omok\obj\Debug\Omok.exe.config

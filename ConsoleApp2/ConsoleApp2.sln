@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEST1", "..\TEST1\TEST1.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureEX", "..\StructureEX\StructureEX.csproj", "{7F038F8F-8508-493E-8F77-2863225CE621}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omok", "..\Omok\Omok.csproj", "{7CEFD5A5-C99F-4C0A-9378-9AEBE7B53114}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{7F038F8F-8508-493E-8F77-2863225CE621}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F038F8F-8508-493E-8F77-2863225CE621}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F038F8F-8508-493E-8F77-2863225CE621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CEFD5A5-C99F-4C0A-9378-9AEBE7B53114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CEFD5A5-C99F-4C0A-9378-9AEBE7B53114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CEFD5A5-C99F-4C0A-9378-9AEBE7B53114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CEFD5A5-C99F-4C0A-9378-9AEBE7B53114}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
