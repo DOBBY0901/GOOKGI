@@ -3,22 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\ConsoleApp2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BF4D7521-87D1-47A4-BF31-B73AFA97E647}|..\\OmokSelf\\OmokSelf.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\omokself\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7CEFD5A5-C99F-4C0A-9378-9AEBE7B53114}|..\\Omok\\Omok.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\omok\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F038F8F-8508-493E-8F77-2863225CE621}|..\\StructureEX\\StructureEX.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\structureex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F038F8F-8508-493E-8F77-2863225CE621}|..\\StructureEX\\StructureEX.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\structureex\\mylinketlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F038F8F-8508-493E-8F77-2863225CE621}|..\\StructureEX\\StructureEX.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\structureex\\mynode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F038F8F-8508-493E-8F77-2863225CE621}|..\\StructureEX\\StructureEX.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\structureex\\mylsit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3C97351-68D3-4F0D-8FFA-68ED6BF9A9C8}|..\\MYSELF2\\MYSELF2.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\myself2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,80 +16,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Omok\\Program.cs",
               "RelativeDocumentMoniker": "..\\Omok\\Program.cs",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Omok\\Program.cs",
               "RelativeToolTip": "..\\Omok\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAANwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAmwMEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-29T00:23:00.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MyLinketList.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\StructureEX\\MyLinketList.cs",
-              "RelativeDocumentMoniker": "..\\StructureEX\\MyLinketList.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\StructureEX\\MyLinketList.cs",
-              "RelativeToolTip": "..\\StructureEX\\MyLinketList.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAIwDIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T03:24:58.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MyNode.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\StructureEX\\MyNode.cs",
-              "RelativeDocumentMoniker": "..\\StructureEX\\MyNode.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\StructureEX\\MyNode.cs",
-              "RelativeToolTip": "..\\StructureEX\\MyNode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T03:24:47.428Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Mylsit.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\StructureEX\\Mylsit.cs",
-              "RelativeDocumentMoniker": "..\\StructureEX\\Mylsit.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\StructureEX\\Mylsit.cs",
-              "RelativeToolTip": "..\\StructureEX\\Mylsit.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDUAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T02:05:01.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\StructureEX\\Program.cs",
-              "RelativeDocumentMoniker": "..\\StructureEX\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\StructureEX\\Program.cs",
-              "RelativeToolTip": "..\\StructureEX\\Program.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAAHIAAAAgAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\OmokSelf\\Program.cs",
+              "RelativeDocumentMoniker": "..\\OmokSelf\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\OmokSelf\\Program.cs",
+              "RelativeToolTip": "..\\OmokSelf\\Program.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAcwPcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T00:10:59.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\MYSELF2\\Program.cs",
-              "RelativeDocumentMoniker": "..\\MYSELF2\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\MYSELF2\\Program.cs",
-              "RelativeToolTip": "..\\MYSELF2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T02:41:16.951Z"
+              "WhenOpened": "2025-12-30T00:29:26.661Z",
+              "EditorCaption": ""
             }
           ]
         }
