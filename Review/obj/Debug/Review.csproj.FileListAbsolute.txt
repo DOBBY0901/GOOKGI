@@ -1,0 +1,8 @@
+C:\Users\Administrator\Source\Repos\GOOKGI\Review\bin\Debug\Review.exe.config
+C:\Users\Administrator\Source\Repos\GOOKGI\Review\bin\Debug\Review.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\Review\bin\Debug\Review.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\Review\obj\Debug\Review.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\Review\obj\Debug\Review.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\Review\obj\Debug\Review.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\Review\obj\Debug\Review.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\Review\obj\Debug\Review.exe.config
