@@ -1,0 +1,8 @@
+C:\Users\Administrator\Source\Repos\GOOKGI\TestRPG\bin\Debug\TestRPG.exe.config
+C:\Users\Administrator\Source\Repos\GOOKGI\TestRPG\bin\Debug\TestRPG.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\TestRPG\bin\Debug\TestRPG.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\TestRPG\obj\Debug\TestRPG.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\TestRPG\obj\Debug\TestRPG.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\TestRPG\obj\Debug\TestRPG.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\TestRPG\obj\Debug\TestRPG.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\TestRPG\obj\Debug\TestRPG.exe.config

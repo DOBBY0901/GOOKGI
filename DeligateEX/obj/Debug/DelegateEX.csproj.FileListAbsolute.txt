@@ -1,0 +1,8 @@
+C:\Users\Administrator\Source\Repos\GOOKGI\DeligateEX\bin\Debug\DeligateEX.exe.config
+C:\Users\Administrator\Source\Repos\GOOKGI\DeligateEX\bin\Debug\DeligateEX.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\DeligateEX\bin\Debug\DeligateEX.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\DeligateEX\obj\Debug\DelegateEX.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\DeligateEX\obj\Debug\DelegateEX.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\DeligateEX\obj\Debug\DeligateEX.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\DeligateEX\obj\Debug\DeligateEX.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\DeligateEX\obj\Debug\DeligateEX.exe.config

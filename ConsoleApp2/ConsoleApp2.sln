@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmokSelf", "..\OmokSelf\Omo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Review", "..\Review\Review.csproj", "{487274B5-DAC3-46A0-B1F1-846DA94CCFB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateEX", "..\DeligateEX\DelegateEX.csproj", "{53D6CF75-9A75-4931-8A47-E50976D13434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRPG", "..\TestRPG\TestRPG.csproj", "{5EE66608-FBD0-4BA9-8C46-CC050E4A9187}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{487274B5-DAC3-46A0-B1F1-846DA94CCFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{487274B5-DAC3-46A0-B1F1-846DA94CCFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{487274B5-DAC3-46A0-B1F1-846DA94CCFB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D6CF75-9A75-4931-8A47-E50976D13434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D6CF75-9A75-4931-8A47-E50976D13434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D6CF75-9A75-4931-8A47-E50976D13434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D6CF75-9A75-4931-8A47-E50976D13434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE66608-FBD0-4BA9-8C46-CC050E4A9187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE66608-FBD0-4BA9-8C46-CC050E4A9187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE66608-FBD0-4BA9-8C46-CC050E4A9187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE66608-FBD0-4BA9-8C46-CC050E4A9187}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
