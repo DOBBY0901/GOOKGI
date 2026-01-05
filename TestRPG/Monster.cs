@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestRPG
 {
-    internal class PlayerMove
+    public class Monster : Unit
     {
 
     }

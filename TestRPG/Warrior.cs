@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static TestRPG.Unit;
 
 namespace TestRPG
 {
-    internal class Warrior: Unit
+    public class Warrior : PlayerUnit
     {
        public Warrior(string _name, int _lv , int _atk, int _def)
         {
@@ -18,9 +19,11 @@ namespace TestRPG
             m_hp = 100;
             m_mp = 30;
             m_gold = 1000;
+
+            CurY = 1;
+            CurX = 1;
         }
 
-        
-
+       
     }
 }

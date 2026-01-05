@@ -1,12 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace TestRPG
 {
-    internal class Unit
+    public interface IMoveController
+    {
+       
+        void InputMove(ConsoleKeyInfo _keyint, WorldMap _worldMap);
+        void MoveFunc(int _dtx, int _dty, WorldMap _worldMap);
+    }
+
+    public class Unit
     {
         protected string m_name;
         public string Name { get { return m_name; } }
@@ -39,6 +47,10 @@ namespace TestRPG
         protected int m_gold;
         public int Gold { get { return m_gold; } }
 
+        public int CurX { get; set; }
+       
+        public int CurY { get;  set; } 
+
         public void PrintStatus()
         {
             Console.WriteLine("====================");
@@ -52,5 +64,7 @@ namespace TestRPG
             Console.WriteLine($"소지 골드 : {Gold}");
             Console.WriteLine("====================");
         }
+
+       
     }
 }
