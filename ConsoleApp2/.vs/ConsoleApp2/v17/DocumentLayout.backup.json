@@ -6,6 +6,9 @@
       "AbsoluteMoniker": "D:0:0:{5EE66608-FBD0-4BA9-8C46-CC050E4A9187}|..\\TestRPG\\TestRPG.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\testrpg\\playerunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5EE66608-FBD0-4BA9-8C46-CC050E4A9187}|..\\TestRPG\\TestRPG.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\testrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5EE66608-FBD0-4BA9-8C46-CC050E4A9187}|..\\TestRPG\\TestRPG.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\testrpg\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -16,9 +19,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EE66608-FBD0-4BA9-8C46-CC050E4A9187}|..\\TestRPG\\TestRPG.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\testrpg\\worldmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EE66608-FBD0-4BA9-8C46-CC050E4A9187}|..\\TestRPG\\TestRPG.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\testrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +32,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Monster.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\Monster.cs",
               "RelativeDocumentMoniker": "..\\TestRPG\\Monster.cs",
@@ -51,59 +51,59 @@
               "RelativeDocumentMoniker": "..\\TestRPG\\PlayerUnit.cs",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\PlayerUnit.cs",
               "RelativeToolTip": "..\\TestRPG\\PlayerUnit.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAADwvywAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAiwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-05T00:39:05.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Warrior.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\Warrior.cs",
-              "RelativeDocumentMoniker": "..\\TestRPG\\Warrior.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\Warrior.cs",
-              "RelativeToolTip": "..\\TestRPG\\Warrior.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T02:29:27.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Unit.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\Unit.cs",
-              "RelativeDocumentMoniker": "..\\TestRPG\\Unit.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\Unit.cs",
-              "RelativeToolTip": "..\\TestRPG\\Unit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T02:28:20.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "WorldMap.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\WorldMap.cs",
               "RelativeDocumentMoniker": "..\\TestRPG\\WorldMap.cs",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\WorldMap.cs",
               "RelativeToolTip": "..\\TestRPG\\WorldMap.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAA2wEQAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-02T01:13:48.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "Warrior.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\Warrior.cs",
+              "RelativeDocumentMoniker": "..\\TestRPG\\Warrior.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\Warrior.cs",
+              "RelativeToolTip": "..\\TestRPG\\Warrior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T02:29:27.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Unit.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\Unit.cs",
+              "RelativeDocumentMoniker": "..\\TestRPG\\Unit.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\Unit.cs",
+              "RelativeToolTip": "..\\TestRPG\\Unit.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwDUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T02:28:20.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\Program.cs",
               "RelativeDocumentMoniker": "..\\TestRPG\\Program.cs",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\Program.cs",
               "RelativeToolTip": "..\\TestRPG\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAnwBcAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-02T01:08:54.488Z",
               "EditorCaption": ""

@@ -26,7 +26,7 @@ namespace TestRPG
         {
             0, 100, 200, 300, 500, 1000
         };
-
+        
         protected int m_exp;
         public int Exp { get { return m_exp; } }
 

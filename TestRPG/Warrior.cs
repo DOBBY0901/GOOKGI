@@ -9,7 +9,7 @@ namespace TestRPG
 {
     public class Warrior : PlayerUnit
     {
-       public Warrior(string _name, int _lv , int _atk, int _def)
+        public Warrior(string _name, int _lv, int _atk, int _def, int _y, int _x, int gold = 300)
         {
             m_name = _name;
             m_lv = _lv;
@@ -18,10 +18,11 @@ namespace TestRPG
             m_defValue = _def;
             m_hp = 100;
             m_mp = 30;
-            m_gold = 1000;
+            m_gold = gold;
 
-            CurY = 1;
-            CurX = 1;
+            CurY = _y;
+            CurX = _x;
+
         }
 
        
