@@ -145,6 +145,8 @@ namespace Practice1
             Console.WriteLine("                                 3. 곱셈(*) 계산기"                                );
             Console.WriteLine();
             Console.WriteLine("                                 4. 나눗셈(/)계산기"                               );
+            Console.WriteLine();
+            Console.WriteLine("                                 5. 종료                                          ");
             Console.WriteLine("==================================================================================");
 
         }
@@ -170,6 +172,7 @@ namespace Practice1
                     Console.Clear();
                     PrintNotice();
                     ChooseCalculator();
+  
                 }
             }
             else
