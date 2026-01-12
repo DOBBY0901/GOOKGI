@@ -3,10 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\ConsoleApp2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{625E0722-5CE7-420B-A091-BE8E5DA82454}|..\\Practice3\\Practice3.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\practice3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E9E1E157-DE51-41FE-A7A1-E90DFB67D33B}|..\\Practice2\\Practice2.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\practice2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D50410F-5985-4F67-B0A9-4B4679BD90C1}|..\\Practice1\\Practice1.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\practice1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03150C31-AE97-4582-BD03-041B72372A09}|..\\Practice2(List)\\Practice2(List).csproj|c:\\users\\administrator\\source\\repos\\gookgi\\practice2(list)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,32 +19,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice2(List)\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Practice2(List)\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice2(List)\\Program.cs",
+              "RelativeToolTip": "..\\Practice2(List)\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T01:12:44.602Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice1\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Practice1\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice1\\Program.cs",
-              "RelativeToolTip": "..\\Practice1\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAJoAAAAlAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice2\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Practice2\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice2\\Program.cs",
+              "RelativeToolTip": "..\\Practice2\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T01:10:45.09Z",
+              "WhenOpened": "2026-01-12T00:20:38.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice2\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Practice2\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice2\\Program.cs",
-              "RelativeToolTip": "..\\Practice2\\Program.cs",
-              "ViewState": "AgIAALYAAAAAAAAAAADwv/IAAAAHAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice3\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Practice3\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice3\\Program.cs",
+              "RelativeToolTip": "..\\Practice3\\Program.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAowMoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T01:03:01.732Z",
+              "WhenOpened": "2026-01-12T00:14:35.402Z",
               "EditorCaption": ""
             }
           ]

@@ -38,7 +38,7 @@ public class Program
             switch (consoleKeyInfo.Key)
             {
                 case ConsoleKey.D1:
-                    NumberInput(numArray);
+                NumberInput(numArray);
                     break;
 
                 case ConsoleKey.D2:
@@ -226,33 +226,43 @@ public class Program
     //역순으로 출력
     static void PrintNumberReverse(int[] numArray)
     {
-        int numMin  = 0;
-        int numMin2 = 0;
-        int numMin3 = 0;
-        int numMin4 = 0;
-        int numMin5 = 0;
+        for (int i = 0; i < numArray.Length - 1; i++)
+        {
+            int maxIndex = i;
+
+            // i 이후에서 가장 큰 값 찾기
+            for (int j = i + 1; j < numArray.Length; j++)
+            {
+                if (numArray[j] > numArray[maxIndex])
+                {
+                    maxIndex = j;
+                }
+            }
+
+            // 가장 큰 값과 현재 위치 교환
+            int change = numArray[i];
+            numArray[i] = numArray[maxIndex];
+            numArray[maxIndex] = change;
+        }
+
+        Console.WriteLine();
+        Console.WriteLine("크기 역순:");
 
         for (int i = 0; i < numArray.Length; i++)
         {
-            if(numArray[0]< numArray[i])
-            {
-                numMin = numArray[0];
-            }
+            Console.Write($"{numArray[i]} ");
         }
 
-       
-
-        Console.WriteLine();
-        Console.WriteLine($"{numMin}, {numMin2}, {numMin3}, {numMin4}, {numMin5}");
         Console.ReadKey();
-
+        Console.Clear();
     }
 
     static void Main()
     {
-         int[] numArray = new int[5];
-        
-         Random rand = new Random();
+        int[] numArray = new int[5];
+          
+
+        Random rand = new Random();
 
         PrintNotice();
         PrintArray(numArray, rand);
@@ -282,4 +292,17 @@ public class Program
  * 홀수만 출력
  * 크기 역순으로 출력
  * 
+ * 배열 -> 리스트 변환
+ * 동적으로 숫자를 관리
+ * 언제든지 숫자 추가 가능
+ * 
+ * 메뉴 추가
+ * 추가/삭제
+ * 삭제 1 값을 비교해서 해당 값 삭제
+ * 삭제 2 값이 아닌 인덱스의 위치 삭제
+ * 
+ * 중복 방지
+ * 정렬기능
+ * 소트 기능
+ * 리스트 비우기
  */

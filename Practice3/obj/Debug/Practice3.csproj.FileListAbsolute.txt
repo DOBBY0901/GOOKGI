@@ -1,0 +1,8 @@
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice3\bin\Debug\Practice3.exe.config
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice3\bin\Debug\Practice3.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice3\bin\Debug\Practice3.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice3\obj\Debug\Practice3.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice3\obj\Debug\Practice3.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice3\obj\Debug\Practice3.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice3\obj\Debug\Practice3.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice3\obj\Debug\Practice3.exe.config

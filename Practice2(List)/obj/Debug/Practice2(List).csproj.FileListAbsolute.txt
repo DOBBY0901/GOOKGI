@@ -1,0 +1,7 @@
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice2(List)\bin\Debug\Practice2(List).exe.config
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice2(List)\bin\Debug\Practice2(List).exe
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice2(List)\bin\Debug\Practice2(List).pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice2(List)\obj\Debug\Practice2(List).csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice2(List)\obj\Debug\Practice2(List).csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice2(List)\obj\Debug\Practice2(List).exe
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice2(List)\obj\Debug\Practice2(List).pdb
