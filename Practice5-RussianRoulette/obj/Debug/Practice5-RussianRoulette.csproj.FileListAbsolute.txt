@@ -1,0 +1,8 @@
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice5-RussianRoulette\bin\Debug\Practice5-RussianRoulette.exe.config
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice5-RussianRoulette\bin\Debug\Practice5-RussianRoulette.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice5-RussianRoulette\bin\Debug\Practice5-RussianRoulette.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice5-RussianRoulette\obj\Debug\Practice5-RussianRoulette.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice5-RussianRoulette\obj\Debug\Practice5-RussianRoulette.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice5-RussianRoulette\obj\Debug\Practice5-RussianRoulette.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice5-RussianRoulette\obj\Debug\Practice5-RussianRoulette.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice5-RussianRoulette\obj\Debug\Practice5-RussianRoulette.exe.config
