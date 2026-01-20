@@ -3,13 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\ConsoleApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A64DA259-0456-4254-A75F-9F5C09F91DD1}|..\\Practice5-RussianRoulette\\Practice5-RussianRoulette.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\practice5-russianroulette\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{278E3C3E-CE3E-4021-9AB3-691E81E3E93C}|..\\Practice6\\Practice6.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\practice6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABE82894-8AEF-406E-A9B0-17A18392F4FC}|..\\Practice4_self\\Practice4_self.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\practice4_self\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68891D5A-5FF2-4257-BCAD-46B7A01912CE}|..\\Practice4\\Practice4.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\practice4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5EE66608-FBD0-4BA9-8C46-CC050E4A9187}|..\\TestRPG\\TestRPG.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\testrpg\\worldmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,44 +16,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice5-RussianRoulette\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Practice5-RussianRoulette\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice5-RussianRoulette\\Program.cs",
-              "RelativeToolTip": "..\\Practice5-RussianRoulette\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwv1gAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "WorldMap.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\WorldMap.cs",
+              "RelativeDocumentMoniker": "..\\TestRPG\\WorldMap.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\WorldMap.cs",
+              "RelativeToolTip": "..\\TestRPG\\WorldMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T00:05:24.12Z",
+              "WhenOpened": "2026-01-20T00:31:36.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice4_self\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Practice4_self\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice4_self\\Program.cs",
-              "RelativeToolTip": "..\\Practice4_self\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwD8AAAARAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice6\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Practice6\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice6\\Program.cs",
+              "RelativeToolTip": "..\\Practice6\\Program.cs",
+              "ViewState": "AgIAADEBAAAAAAAAAAAAAEoBAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T01:35:02.167Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice4\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Practice4\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice4\\Program.cs",
-              "RelativeToolTip": "..\\Practice4\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwv4UAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T00:09:25.642Z"
+              "WhenOpened": "2026-01-20T00:03:37.876Z",
+              "EditorCaption": ""
             }
           ]
         }

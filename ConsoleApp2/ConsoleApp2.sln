@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice4_self", "..\Practi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice5-RussianRoulette", "..\Practice5-RussianRoulette\Practice5-RussianRoulette.csproj", "{A64DA259-0456-4254-A75F-9F5C09F91DD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astar", "..\Practice6\Astar.csproj", "{278E3C3E-CE3E-4021-9AB3-691E81E3E93C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{A64DA259-0456-4254-A75F-9F5C09F91DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A64DA259-0456-4254-A75F-9F5C09F91DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A64DA259-0456-4254-A75F-9F5C09F91DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{278E3C3E-CE3E-4021-9AB3-691E81E3E93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278E3C3E-CE3E-4021-9AB3-691E81E3E93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278E3C3E-CE3E-4021-9AB3-691E81E3E93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278E3C3E-CE3E-4021-9AB3-691E81E3E93C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

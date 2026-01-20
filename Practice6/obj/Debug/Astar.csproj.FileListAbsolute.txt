@@ -1,0 +1,8 @@
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice6\bin\Debug\Practice6.exe.config
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice6\bin\Debug\Practice6.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice6\bin\Debug\Practice6.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice6\obj\Debug\Astar.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice6\obj\Debug\Astar.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice6\obj\Debug\Practice6.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice6\obj\Debug\Practice6.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice6\obj\Debug\Practice6.exe.config
