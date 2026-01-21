@@ -1,0 +1,8 @@
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice6-Poker\bin\Debug\Practice6-Poker.exe.config
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice6-Poker\bin\Debug\Practice6-Poker.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice6-Poker\bin\Debug\Practice6-Poker.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice6-Poker\obj\Debug\Practice6-Poker.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice6-Poker\obj\Debug\Practice6-Poker.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice6-Poker\obj\Debug\Practice6-Poker.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice6-Poker\obj\Debug\Practice6-Poker.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\Practice6-Poker\obj\Debug\Practice6-Poker.exe.config

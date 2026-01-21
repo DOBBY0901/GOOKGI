@@ -3,10 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\ConsoleApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{278E3C3E-CE3E-4021-9AB3-691E81E3E93C}|..\\Practice6\\Practice6.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\practice6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EE66608-FBD0-4BA9-8C46-CC050E4A9187}|..\\TestRPG\\TestRPG.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\testrpg\\worldmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39292530-7DF0-4C0F-B27A-15A4935FBF25}|..\\Practice6-Poker\\Practice6-Poker.csproj|c:\\users\\administrator\\source\\repos\\gookgi\\practice6-poker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -16,32 +13,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WorldMap.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\WorldMap.cs",
-              "RelativeDocumentMoniker": "..\\TestRPG\\WorldMap.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\TestRPG\\WorldMap.cs",
-              "RelativeToolTip": "..\\TestRPG\\WorldMap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T00:31:36.887Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice6\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Practice6\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice6\\Program.cs",
-              "RelativeToolTip": "..\\Practice6\\Program.cs",
-              "ViewState": "AgIAADEBAAAAAAAAAAAAAEoBAAAVAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice6-Poker\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Practice6-Poker\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\GOOKGI\\Practice6-Poker\\Program.cs",
+              "RelativeToolTip": "..\\Practice6-Poker\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoBAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T00:03:37.876Z",
+              "WhenOpened": "2026-01-21T00:44:02.233Z",
               "EditorCaption": ""
             }
           ]

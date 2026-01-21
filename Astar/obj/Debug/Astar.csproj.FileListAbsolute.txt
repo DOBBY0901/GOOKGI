@@ -1,0 +1,7 @@
+C:\Users\Administrator\Source\Repos\GOOKGI\Astar\bin\Debug\Astar.exe.config
+C:\Users\Administrator\Source\Repos\GOOKGI\Astar\bin\Debug\Astar.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\Astar\bin\Debug\Astar.pdb
+C:\Users\Administrator\Source\Repos\GOOKGI\Astar\obj\Debug\Astar.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\Astar\obj\Debug\Astar.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\GOOKGI\Astar\obj\Debug\Astar.exe
+C:\Users\Administrator\Source\Repos\GOOKGI\Astar\obj\Debug\Astar.pdb
