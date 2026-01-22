@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using System.Linq;
+using System.Runtime.ExceptionServices;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -156,8 +159,7 @@ namespace Practice6
         public string Name { get; private set; }
         private List<Card> hand = new List<Card>();
 
-        // 읽기전용
-        public IReadOnlyList<Card> Hand => hand;
+        public List<Card> Hand => hand;
 
         public Player(string name)
         {
@@ -183,6 +185,7 @@ namespace Practice6
     {
         private Deck deck;
         private List<Player> players = new List<Player>();
+        private CheckHandRanking checkHandRanking = new CheckHandRanking();
 
         public GameManager()
         {
@@ -208,6 +211,7 @@ namespace Practice6
 
             Deal(cardsPerPlayer); //플레이어 카드 배분
             ShowHands(); //패 보여주기
+            ShowWinner(); //승자 출력
         }
 
         //플레이어들에게 카드 배분
@@ -241,6 +245,31 @@ namespace Practice6
             }
         }
 
+        //승자 비교
+        private void ShowWinner()
+        {
+            Player winner = players[0]; 
+            HandValue bestValue = checkHandRanking.Evaluate5(players[0].Hand);
+
+            for (int i = 1; i < players.Count; i++)
+            {
+                HandValue curValue = checkHandRanking.Evaluate5(players[i].Hand);
+
+                int result = checkHandRanking.CompareRanking(curValue, bestValue);
+
+                if(result > 0)
+                {
+                    bestValue = curValue;
+                    winner = players[i];
+                }
+            }
+
+            Console.WriteLine("===== 결과 =====");
+            Console.WriteLine($"승자: {winner.Name}");
+            Console.WriteLine($"족보: {bestValue.RankName} ({bestValue.Detail})");
+            Console.WriteLine("===============");
+        }
+
         // 플레이어 초기화
         public void ResetPlayers()
         {
@@ -266,8 +295,191 @@ namespace Practice6
 
         // 비교 우선순위가 높은 숫자부터 넣는 리스트
         public List<int> Tiebreakers { get; set; } = new List<int>();
+        
+        //랭크 이름 
+        public string RankName { get; set; }
+
+        //왜 이겼는지 
+        public string Detail { get; set; }
     }
 
+    //족보의 비교 클래스
+    public class CheckHandRanking
+    {
+        //Ace를 14로 취급해서 비교하기 위한 함수
+        private int AceValue(Rank rank)
+        {
+            return rank == Rank.Ace ? 14 : (int)rank;
+        }
+
+        //카드의 수트를 비교하는 함수 스페이드 > 다이아 > 하트 > 클로버
+        private int SuitValue(Suit suit)
+        {
+            switch (suit)
+            {
+                case Suit.Spades:
+                    return 4;
+
+                case Suit.Diamond:
+                    return 3;
+
+                case Suit.Heart:
+                    return 2;
+
+                case Suit.Clover:
+                    return 1;
+
+                default:
+                    return 0;
+
+            }
+        }
+
+        //각 카드의 힘
+        private int CardPower(Card card)
+        {
+            int rank = AceValue(card.Rank); //Ace = 14
+            int suit = SuitValue(card.Suit); // 스다하클 순서
+
+            return rank * 10 + suit; //숫자가 우선, 숫자가 같으면 수트(무늬)로 비교
+        }
+
+        //파이브 포커 비교 - 어떤카드, 족보로 이겼는지 출력
+        public HandValue Evaluate5(List<Card> hand)
+        {
+           List<int> powers = new List<int>(); //CardPower담는 리스트
+
+            //5장 카드 각각 power계산해서 넣기
+            for (int i = 0; i < hand.Count; i++)
+            {
+                int power = CardPower(hand[i]);
+                powers.Add(power);
+            }
+
+            //powers 내림차순 정렬(가장 큰것이 맨앞으로)
+            powers.Sort();
+            powers.Reverse();
+            HandValue handValue = new HandValue();
+
+            //플러시 변환
+            if(IsFlush(hand))
+            {
+                handValue.Rank = HandRank.Flush;
+                handValue.Tiebreakers = powers;
+                handValue.RankName = "플러시";
+                handValue.Detail = $"{PowerToText(powers[0])} 플러시";
+
+                return handValue;
+            }
+
+            //하이카드 변환
+            handValue.Rank = HandRank.HighCard;
+            handValue.Tiebreakers = powers;
+            handValue.RankName = "하이카드";
+            handValue.Detail = $"{PowerToText(powers[0])} 하이";
+
+            return handValue;
+        }
+
+        //족보 비교
+        public int CompareRanking(HandValue handA, HandValue handB)
+        {
+            if(handA.Rank > handB.Rank)
+            {
+                return 1;
+            }
+            if(handA.Rank < handB.Rank)
+            {
+                return -1;
+            }
+
+            //같은 족보면 Tiebreaker 앞에서부터 비교
+            int count = handA.Tiebreakers.Count;
+
+            if (handB.Tiebreakers.Count < count)
+            {
+                count = handB.Tiebreakers.Count;
+            }
+
+            for(int i = 0; i < count;i++)
+            {
+                if (handA.Tiebreakers[i] > handB.Tiebreakers[i])
+                {
+                    return 1;
+                }
+
+                if (handA.Tiebreakers[i] < handB.Tiebreakers[i])
+                {
+                    return -1;
+                }
+            }
+                return 0;
+        }
+
+        //플러시 판정
+        private bool IsFlush(List<Card> hand)
+        {
+            Suit firstSuit = hand[0].Suit;
+
+            for (int i = 0; i < hand.Count; i++)
+            {
+                if(hand[i].Suit != firstSuit)
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        //스트레이트 판정
+        private bool IsStraight(List<Card> hand,int highRank)
+        {
+            List<int> ranks = new List<int>();
+            
+            for (int i = 0; i < hand.Count; i++)
+            {
+                ranks.Add(AceValue(hand[i].Rank));
+            }
+
+            ranks.Sort();
+            ranks.Reverse();
+
+            for(int i = 0; i< ranks.Count -1; i++)
+            {
+                if (ranks[i] == ranks[i+1])
+                {
+                    highRank = 0;
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        //텍스트
+        private string PowerToText(int power)
+        {
+            int rankValue = power / 10;  // 14~2
+            int suitValue = power % 10;  // 4~1
+
+            string rankText;
+            if (rankValue == 14) rankText = "A";
+            else if (rankValue == 13) rankText = "K";
+            else if (rankValue == 12) rankText = "Q";
+            else if (rankValue == 11) rankText = "J";
+            else rankText = rankValue.ToString();
+
+            string suitText;
+            if (suitValue == 4) suitText = "♠";
+            else if (suitValue == 3) suitText = "◆";
+            else if (suitValue == 2) suitText = "♥";
+            else if (suitValue == 1) suitText = "♣";
+            else suitText = "?";
+
+            return suitText + rankText; // 예: ♠A, ◆10
+        }
+
+    }
     /// <summary>
     /// 클래스를 통해 객체를 만들고 매서드 호출
     /// </summary>
